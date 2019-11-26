@@ -1,0 +1,37 @@
+[Sobre a representação usada:]
+
+A equipe escolheu utilizar a string de bits que em python é representada por uma lista de bits.
+
+[Sobre como executar:]
+
+O código para execução está em dois formatos: .py e .ipynb (notebook). Cada um encontra-se em uma pasta diferente. A execução do .ipynb é preferível se o professor possuir o JUPYTER NOTEBOOK instalado em sua máquina. É necessário possuir o python3 instalado. Para executar o .py abra o terminal e digite:
+
+python3 Trabalho_IA_.py
+
+Também é preferível que seja executado em sistema linux, pois no código existem comandos de mudança de cores específicos para o terminal desse sistema. (A execução em um sistema Windows não foi testada, logo pode ocorrer comportamentos indesejáveis)
+
+
+[Durante a execução:]
+
+1. Será pedido para o professor informar o número de enfermeiros.
+2. Logo após, será perguntado se o professor gostaria de informar uma string de bits. Senão, o programa irá gerar uma aleatória.
+3. Em seguida, será apresentado um menu com as opções:
+    3.1 Executar a  Subida de Encosta Simples 
+    3.2 Executar a  Subida de Encosta pelo Maior Aclive 
+    3.3 Executar a  Busca pelo Melhor Primeiro 
+    3.4 Executar a  Subida de Encosta pelo Maior Aclive N 
+4. Na escolha das opções 3.1 ( Subida de Encosta Simples ):
+    4.1 Será apresentado o Estado atual juntamente com sua avaliação.
+    4.2 Serão exibidos um por um os vizinhos do estado atual, parando quando encontrar o primeiro com avaliação melhor.
+5. Na escolha das opções 3.2 ( Subida de Encosta pelo Maior Aclive ):
+    5.1 Será apresentado o Estado atual juntamente com sua avaliação.
+    5.2 Serão exibidos todos os vizinhos do estado atual com suas respectivas avaliações.
+6. Na escolha das opções 3.3 ( Busca pelo Melhor Primeiro  ):
+    6.1 Serão apresentados apenas os estados que foram considerados melhores até aquele momento na busca.
+7. Na escolha das opções 3.4 ( Subida de Encosta pelo Maior Aclive N  ):
+    7.1 Seŕa pedido para informar o parâmetro N.
+    7.2 Será apresentado N interações da Subida de Encosta pelo Maior Aclive, como descrito em 5.
+    7.1 Será apresentado as N soluções encontradas.
+8. Ao final de cada busca, será exibido com destaque verde a solução encontrada
+    4.2 Serão exibidos um por um os vizinhos do estado atual, parando quando encontrar o primeiro com avaliação melhor.
+4. Na escolha da opção 2.3 será necessário informar o número de rainhas novamente.

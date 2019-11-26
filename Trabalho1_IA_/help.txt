@@ -1,0 +1,23 @@
+Sobre como executar:
+
+O código para execução está em dois formatos: .py e .ipynb (notebook). Cada um encontra-se em uma pasta diferente. A execução do .ipynb é preferível se o professor possuir o JUPYTER NOTEBOOK instalado em sua máquina. É necessário possuir o python3 instalado. Para executar o .py abra o terminal e digite:
+
+python3 Trabalho_IA_.py
+
+Também é preferível que seja executado em sistema linux, pois no código existem comandos de mudança de cores específicos para o terminal desse sistema. (A execução em um sistema Windows não foi testada, logo pode ocorrer comportamentos indesejáveis)
+
+
+Durante a execução:
+1. Será pedido para o professor informar o número de rainhas.
+2. Em seguida, será apresentado um menu com as opções:
+    2.1 Executar a BFS
+    2.2 Executar a DFS
+    2.3 Alterar o ńumero de rainhas
+    2.4 Sair
+3. Na escolha das opções 2.1 ou 2.2 (execução de uma das buscas) ocorrerá o seguinte:
+    3.1 Será apresentado o Estado atual da fila/pilha, com informações sobre a quantidade de elementos na estrutura e o elemento no início/topo.
+    3.2 Será exibida uma mensagem informando se o elemento do topo é ou não um objetivo (testar)
+    3.3 Será exibida uma mensagem com os vizinhos daquele estado, mais precisamente todas as jogadas possíveis a partir do elemento do início/topo (gerar)
+    3.4 Os passos de interação acima continuarão em loop até uma solução ser encontrada ou o professor digitar 'E' (a execução da busca continuará)
+    3.5 No final será exibida a solução encontrada (no caso de não houver solução será exibido o estado inicial como solução)
+4. Na escolha da opção 2.3 será necessário informar o número de rainhas novamente.
