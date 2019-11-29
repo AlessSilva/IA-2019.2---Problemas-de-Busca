@@ -16,22 +16,18 @@ Também é preferível que seja executado em sistema linux, pois no código exis
 1. Será pedido para o professor informar o número de enfermeiros.
 2. Logo após, será perguntado se o professor gostaria de informar uma string de bits. Senão, o programa irá gerar uma aleatória.
 3. Em seguida, será apresentado um menu com as opções:
-    3.1 Executar a  Subida de Encosta Simples 
-    3.2 Executar a  Subida de Encosta pelo Maior Aclive 
-    3.3 Executar a  Busca pelo Melhor Primeiro 
-    3.4 Executar a  Subida de Encosta pelo Maior Aclive N 
-4. Na escolha das opções 3.1 ( Subida de Encosta Simples ):
-    4.1 Será apresentado o Estado atual juntamente com sua avaliação.
-    4.2 Serão exibidos um por um os vizinhos do estado atual, parando quando encontrar o primeiro com avaliação melhor.
-5. Na escolha das opções 3.2 ( Subida de Encosta pelo Maior Aclive ):
-    5.1 Será apresentado o Estado atual juntamente com sua avaliação.
-    5.2 Serão exibidos todos os vizinhos do estado atual com suas respectivas avaliações.
-6. Na escolha das opções 3.3 ( Busca pelo Melhor Primeiro  ):
-    6.1 Serão apresentados apenas os estados que foram considerados melhores até aquele momento na busca.
-7. Na escolha das opções 3.4 ( Subida de Encosta pelo Maior Aclive N  ):
-    7.1 Seŕa pedido para informar o parâmetro N.
-    7.2 Será apresentado N interações da Subida de Encosta pelo Maior Aclive, como descrito em 5.
-    7.1 Será apresentado as N soluções encontradas.
-8. Ao final de cada busca, será exibido com destaque verde a solução encontrada
-    4.2 Serão exibidos um por um os vizinhos do estado atual, parando quando encontrar o primeiro com avaliação melhor.
-4. Na escolha da opção 2.3 será necessário informar o número de rainhas novamente.
+    3.1 Executar a  Têmpera Simulada 
+    3.2 Executar a  Têmpera Simulada Iterativo 
+    3.3 Executar o algoritmo Genético  
+4. Na escolha das opções 3.1 e 3.2 ( Têmpera Simulada ):
+    4.0 Será perguntado ao professor se deseja utilizar os parâmetros padrões do algoritmo ou não.
+    4.1 Será apresentado a iteração atual, juntamente com a solução atual e a temperatura atual.
+    4.2 Serão exibidos o vizinho da solução atual selecionado de forma aleatória, o valor do DeltaE e se o vizinho foi selecionado como nova solução ou não.
+    4.3 Será exibido a melhor solução.
+5. Na escolha da opção 3.3 (Algoritmo Genético):
+    5.0 Será perguntado ao professor se deseja utilizar os parâmetros padrões do algoritmo ou não.
+    5.1 Será apresentado a geração atual, juntamente com a população atual e o fitness de cada um dos seus membros.
+    5.2 Será apresentado o resultado do eletismo.
+    5.3 Será apresentado o resultado do crossover, juntamente com os dois cromossomos envolvidos, os filhos gerados e o ponto de crossover.
+    5.4 Será apresentado casos de mutação
+    5.5 Será exibido a melhor solução
